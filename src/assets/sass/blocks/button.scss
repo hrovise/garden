@@ -1,0 +1,55 @@
+.btn{
+    
+    padding: 0.5rem;
+    background: none;
+    border: 0;
+    margin-right: 5px;
+        
+    line-height: 1;
+    font-weight: 500;
+    color: $black;
+    font-size: 0.7rem;
+    border-radius: 200px;
+    white-space: nowrap;
+
+    display: inline-block;
+
+    &--green__back{
+        color: $white;
+        background: #1B5B31;
+    }
+    &--green__backlight{
+        color: $white;
+        background: #1B5B31;
+    }
+    &--green {
+        border: 1px solid #1B5B31;
+        color:#1B5B31;
+
+        &:hover {
+            color: $white;
+            background: #1B5B31;
+        }
+    }
+    &--white{
+        color: #1B5B31;
+        background: #F5F0EC;
+}
+&--whiteW{
+    color: #F5F0EC;
+    border: 1px solid #F5F0EC;
+}
+    &--white__border{
+        border: 1px solid #F5F0EC;
+        color: #F5F0EC;
+
+        &:hover {
+            color: black;
+            background: #1B5B31;
+        }
+    }
+    &--black{
+        color:black;
+        border:1px solid black
+    }
+}

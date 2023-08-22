@@ -1,0 +1,268 @@
+.footer {
+    width:100%;
+    color:white;
+   
+}
+
+.footer__full{
+    padding: 3rem 4rem;
+    
+    background-color:  #111111;;
+}
+.footer__text{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__item--img{
+    width:7rem;
+    height:4rem;
+}
+.footer__logo{
+    text-align: center;
+}
+
+.footer__contact{
+    text-align: start;
+}
+.footer__contact--text{
+   padding-right: 4rem;
+   
+    white-space: nowrap;
+    font-size: .7rem;
+}
+.btn__footer{
+    left:-30px;
+}
+
+.footer__basement {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials ul li{
+   display: inline-block;
+
+   color:#F5F0EC;
+}
+.socials ul li a{
+    font-size: .6rem;
+    white-space: nowrap;
+    color:#F5F0EC;
+}
+
+.phone {
+    white-space: nowrap;
+}
+.footer__copyright{
+    display:flex;
+    flex-direction: row ;
+}
+.footer_item--img{
+   margin-right: -30px;
+}
+
+@media(max-width:576px){
+    .footer__item--img{
+        width:3rem;
+        height:2rem;
+    }
+    .footer__logo{
+        width:2rem;
+        height:1rem;
+        left:-50px;
+    }
+    .footer__contact--text{
+        left:-50px;
+        
+         white-space: nowrap;
+         
+}
+.btn__foter{
+    left:-30px;
+}
+.socials ul {
+    margin-left:-30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: normal;
+}
+.socials ul li{
+    
+   padding:5px;
+}
+.phone{
+    font-size: .8rem;
+}
+}
+@media(min-width:576px){
+
+    .footer__basement {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer__copyright{
+        display:flex;
+        flex-direction: row ;
+    }
+    .footer_item--img{
+        margin-right: 0;
+     }
+}
+
+@media(min-width:768px){
+    .footer__text{
+    
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer__basement {
+        
+        flex-direction: row;
+    }
+    .footer__copyright{
+       
+        flex-direction: row ;
+    }
+    .footer__logo{
+        left:-150px;
+    }
+    .footer_item--img{
+        margin-right: 0;
+     }
+     .rights{
+        display: flex;
+        flex-direction: row;
+     }
+}
+
+@media(min-width:992px){
+    .footer__basement {
+        
+        flex-direction: row;
+    }
+    .footer__copyright{
+       
+        flex-direction: row ;
+    }
+    .footer__logo{
+        left:-150px;
+    }
+    .footer_item--img{
+        margin-right: 0;
+     }
+     .rights{
+        display: flex;
+        flex-direction: row;
+     }
+     .footer__text{
+    
+
+        
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer__contact--text{
+        padding-right: 4rem;
+        
+         white-space: nowrap;
+         font-size: 1rem;
+     }
+     .footer__contact{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+     .socials ul li a{
+        font-size: .8rem;
+        white-space: nowrap;
+        color:#F5F0EC;
+    }
+    .phone ul li {
+      display: inline-block;
+    }
+    
+}
+@media(min-width:1200px){
+    .footer__basement {
+        
+        flex-direction: row;
+    }
+    .footer__copyright{
+        top:20px;
+        flex-direction: row ;
+    }
+    .prawa {
+       
+        left:20px;
+    }
+    .rights {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+    .base__made{
+        right:-30px;
+    }
+    .base__logo{
+        left:-40px;
+    }
+    .footer__logo{
+        left:-200px;
+    }
+   
+     .footer__text{
+    
+
+        
+        flex-direction: row;
+        align-items: center;
+    }
+   
+     .footer__contact{
+        display:flex;
+        flex-direction: row;
+        justify-content:right;
+
+        font-size: 1rem;
+     }
+    .footer__contact--text{
+        left:-140px;
+        font-size:1rem;
+     }
+     .btn__footer{
+        right:-80px;
+        font-size:1rem;
+
+     }
+     .btn.btn--green__backlight {
+      width: 200px;
+      font-size: 1rem;
+     }
+     .socials{
+        left:-20px;
+     }
+     .socials ul li a{
+        font-size: .8rem;
+        white-space: nowrap;
+        color:#F5F0EC;
+    }
+    .phone {
+        right: - 50px;
+        font-size: 1rem;
+    }
+    .phone ul li {
+      display: inline-block;
+    }
+
+    .horizontal_f {
+        padding-right:200px;
+        padding-left:200px;
+    }
+    
+}
